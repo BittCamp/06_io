@@ -15,7 +15,7 @@ public class ByteStream {
 		
 		int data;
 		while( (data=bis.read()) != -1 ) {  // 아무것도 안나오면 -1임.
-			 //System.out.print(data);
+			//System.out.print(data); 아스키로 읽는다.
 			System.out.print((char)data); //문자로 읽으면
 		}//while
 		bis.close();

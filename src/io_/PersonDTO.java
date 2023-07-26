@@ -1,6 +1,8 @@
 package io_;//[ 김찬영  2023-07-26 오후 03:55:49 ]
 
-public class PersonDTO {
+import java.io.Serializable;
+
+public class PersonDTO implements Serializable {
 	private String name;
 	private int age;
 	private double height;

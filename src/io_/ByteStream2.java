@@ -14,8 +14,9 @@ public class ByteStream2 {
 		byte[] b = new byte[size]; // 파일의 크기만큼 배열을 잡아라.
 		bis.read(b,0,size); //int java.io.BufferedInputStream.read(byte[] b, int off, int len) throws IOException
 							// 원래 이렇게쓰는 형식임. read안에 하나쓰기도 3개쓰기도함.
-		System.out.println(b); // 배열을 찍으면 주소가 나옴.
+		//System.out.println(b); // 배열을 찍으면 주소가 나옴.
 		System.out.println(new String(b)); // 내용이 나온다.
+		//System.out.println(b.toString()); // 내용이 나온다.
 		
 	}
 }
