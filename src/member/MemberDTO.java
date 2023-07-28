@@ -3,7 +3,7 @@ package member;
 import java.io.Serializable;
 
 public class MemberDTO implements Serializable , Comparable<MemberDTO> {
-
+								//Serializable 객체직렬화기능. 바이트배열로 분해해서 저장하고 묶어서전송하는 기능.
 	private String name;
 	private int age;
 	private String phone;
